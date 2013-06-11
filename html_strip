@@ -1,2 +1,0 @@
-def html_strip(line):
-  return nltk.clean_html(line)
