@@ -1,5 +1,0 @@
-def fifteen_words(wordlist):
-  fifteen={}
-	for word in wordlist:
-		fifteen[word]=abs(float(wordlist[word]-0.5))
-	return dict(sorted(fifteen.iteritems(), key=operator.itemgetter(1), reverse=True)[:15])
