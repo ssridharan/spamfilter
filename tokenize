@@ -1,0 +1,3 @@
+from nltk.tokenize.punkt import PunktWordTokenizer
+def tokenize(line):
+  return PunktWordTokenizer().tokenize(line)
